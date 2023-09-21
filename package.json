@@ -2,10 +2,11 @@
   "name": "monitoring-suhu-express",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "./src/server.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon ./src/api/server.js"
+    "dev": "nodemon ./src/api/server.js",
+    "start": "node ./sec/api/server.js"
   },
   "keywords": [],
   "author": "Tubagus Dylan Rachmat",
